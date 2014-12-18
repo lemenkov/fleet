@@ -12,7 +12,7 @@ import (
 	"crypto/rand"
 	"fmt"
 
-	"github.com/coreos/fleet/Godeps/_workspace/src/golang.org/x/crypto/ssh/testdata"
+	"golang.org/x/crypto/ssh/testdata"
 )
 
 var (

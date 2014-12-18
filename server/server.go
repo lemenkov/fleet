@@ -22,7 +22,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/coreos/fleet/Godeps/_workspace/src/github.com/coreos/go-systemd/activation"
+	"github.com/coreos/go-systemd/activation"
 
 	"github.com/coreos/fleet/agent"
 	"github.com/coreos/fleet/api"

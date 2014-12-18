@@ -30,7 +30,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/coreos/fleet/Godeps/_workspace/src/github.com/coreos/go-systemd/dbus"
+	"github.com/coreos/go-systemd/dbus"
 
 	"github.com/coreos/fleet/functional/util"
 )

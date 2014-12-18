@@ -4,7 +4,7 @@
 //
 // Usage example:
 //
-//   import "github.com/coreos/fleet/Godeps/_workspace/src/code.google.com/p/google-api-go-client/schema/v1"
+//   import "code.google.com/p/google-api-go-client/schema/v1"
 //   ...
 //   schemaService, err := schema.New(oauthHttpClient)
 package schema
@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/coreos/fleet/Godeps/_workspace/src/code.google.com/p/google-api-go-client/googleapi"
+	"code.google.com/p/google-api-go-client/googleapi"
 )
 
 // Always reference these packages, just in case the auto-generated code
