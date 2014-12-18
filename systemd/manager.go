@@ -129,7 +129,7 @@ func (m *systemdUnitManager) Unload(name string) {
 // TriggerStart asynchronously starts the unit identified by the given name.
 // This function does not block for the underlying unit to actually start.
 func (m *systemdUnitManager) TriggerStart(name string) {
-	jobID, err := m.systemd.StartUnit(name, "replace", nil)
+	jobID, err := m.systemd.StartUnit(name, "replace")
 	if err == nil {
 		log.Infof("Triggered systemd unit %s start: job=%d", name, jobID)
 	} else {
@@ -140,7 +140,7 @@ func (m *systemdUnitManager) TriggerStart(name string) {
 // TriggerStop asynchronously starts the unit identified by the given name.
 // This function does not block for the underlying unit to actually stop.
 func (m *systemdUnitManager) TriggerStop(name string) {
-	jobID, err := m.systemd.StopUnit(name, "replace", nil)
+	jobID, err := m.systemd.StopUnit(name, "replace")
 	if err == nil {
 		log.Infof("Triggered systemd unit %s stop: job=%d", name, jobID)
 	} else {
