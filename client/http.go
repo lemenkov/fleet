@@ -21,7 +21,7 @@ import (
 	"net/url"
 	"path"
 
-	"code.google.com/p/google-api-go-client/googleapi"
+	"google.golang.org/api/googleapi"
 
 	"github.com/coreos/fleet/machine"
 	"github.com/coreos/fleet/schema"

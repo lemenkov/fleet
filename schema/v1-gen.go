@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"code.google.com/p/google-api-go-client/googleapi"
+	"google.golang.org/api/googleapi"
 )
 
 // Always reference these packages, just in case the auto-generated code
